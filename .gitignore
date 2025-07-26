@@ -1,0 +1,10 @@
+﻿__pycache__
+Firmware/.vscode
+PIX6T4_Color-backups
+*.FCBak
+production/backups
+*.lck
+fp-info-cache
+fp-lib-table
+*.ipc
+fabrication-toolkit-options.json
