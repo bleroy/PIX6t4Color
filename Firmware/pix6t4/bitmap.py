@@ -15,7 +15,8 @@ palette = {
     'y': Color.fromRGB(128, 128, 0),  # Olive
     'c': Color.fromRGB(0, 128, 128),  # Teal
     'm': Color.fromRGB(128, 0, 128),  # Purple
-    'P': Color.PINK
+    'P': Color.PINK,
+    '#': Color.BLACK
     }
 
 class Bitmap:
