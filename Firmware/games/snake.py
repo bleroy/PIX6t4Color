@@ -6,7 +6,7 @@ from pix6t4.console import Button
 
 class Snake(Game):
     """Snake game for PIX6T4 Color."""
-    name = "Snake"
+    name = "Monty"
 
     def start(self):
         """Initialize the game."""
@@ -49,15 +49,14 @@ class Snake(Game):
 
     def handle_button_pressed(self, button):
         """Handle button press events."""
-        match button:
-            case Button.UP:
-                self.direction = (-1, 0) if self.direction != (1, 0) else self.direction
-            case Button.DOWN:
-                self.direction = (1, 0) if self.direction != (-1, 0) else self.direction
-            case Button.LEFT:
-                self.direction = (0, -1) if self.direction != (0, 1) else self.direction
-            case Button.RIGHT:
-                self.direction = (0, 1) if self.direction != (0, -1) else self.direction
+        if button == Button.UP:
+            self.direction = (-1, 0) if self.direction != (1, 0) else self.direction
+        elif button == Button.DOWN:
+            self.direction = (1, 0) if self.direction != (-1, 0) else self.direction
+        elif button == Button.LEFT:
+            self.direction = (0, -1) if self.direction != (0, 1) else self.direction
+        elif button == Button.RIGHT:
+            self.direction = (0, 1) if self.direction != (0, -1) else self.direction
 
     def loop(self):
         """The main game loop."""

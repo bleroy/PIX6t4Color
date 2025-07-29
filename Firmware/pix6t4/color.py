@@ -1,21 +1,10 @@
-from enum import *
-
-class Color(IntFlag):
-    """RGBA Colors for PIX6T4 Color pixels"""
-    BLACK = 0x000000FF
-    RED = 0xFF0000FF
-    GREEN = 0x00FF00FF
-    BLUE = 0x0000FFFF
-    YELLOW = 0xFFFF00FF
-    CYAN = 0x00FFFFFF
-    MAGENTA = 0xFF00FFFF
-    WHITE = 0xFFFFFFFF
-    GREY = 0x808080FF
-    ORANGE = 0xFFA500FF
-    PURPLE = 0x800080FF
-    BROWN = 0xA52A2AFF
-    PINK = 0xFFC0CBFF
-    TRANSPARENT = 0xFFFFFF00
+class Color:
+    def __init__(self, value: int):
+        """
+        Initialize a Color instance.
+        The value should be in the format 0xRRGGBBAA.
+        """
+        self.value = value
 
     @staticmethod
     def fromInt(value: int):
@@ -180,3 +169,19 @@ class Color(IntFlag):
             r, g, b = c, 0, x
 
         return Color.fromRGBA(int((r + m) * 255), int((g + m) * 255), int((b + m) * 255), alpha)
+
+Color.BLACK = Color(0x000000FF)
+Color.RED = Color(0xFF0000FF)
+Color.GREEN = Color(0x00FF00FF)
+Color.BLUE = Color(0x0000FFFF)
+Color.YELLOW = Color(0xFFFF00FF)
+Color.CYAN = Color(0x00FFFFFF)
+Color.MAGENTA = Color(0xFF00FFFF)
+Color.WHITE = Color(0xFFFFFFFF)
+Color.GREY = Color(0x808080FF)
+Color.ORANGE = Color(0xFFA500FF)
+Color.PURPLE = Color(0x800080FF)
+Color.BROWN = Color(0xA52A2AFF)
+Color.PINK = Color(0xFFC0CBFF)
+Color.LIGHTBLUE = Color(0xADD8E6)
+Color.TRANSPARENT = Color(0xFFFFFF00)

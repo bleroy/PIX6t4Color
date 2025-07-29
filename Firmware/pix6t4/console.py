@@ -1,23 +1,21 @@
-from enum import *
 import os
-from importlib import import_module
 
 from pix6t4.color import Color
 
-class Button(Enum):
+class Button:
     """PIX6T4 Color buttons"""
-    UP = 1
-    DOWN = 2
-    LEFT = 3
-    RIGHT = 4
-    Y = 5
-    B = 6
-    X = 7
-    A = 8
-    SELECT = 9
-    START = 10
+    UP = 0
+    DOWN = 1
+    LEFT = 2
+    RIGHT = 3
+    Y = 4
+    B = 5
+    X = 6
+    A = 7
+    SELECT = 8
+    START = 9
 
-class Direction(IntFlag):
+class Direction:
     """Directions from the d-pad"""
     NONE = 0x00
     NORTH = 0x01
@@ -51,7 +49,9 @@ class PIX6T4Color:
         """Scans the games folder for available games, loads them and returns them as a dictionary."""
         game_files = [f for f in os.listdir('games') if f.endswith('.py')]
         for game_file in game_files:
-            game = import_module(f'games.{game_file[:-3]}').main
+            name = game_file[:-3]
+            module = __import__(f'games.{name}')
+            game = getattr(module, name).main
             self.games.append(game(self))
         # Order games by priority
         self.games.sort(key=lambda game: game.priority)
@@ -73,27 +73,26 @@ class PIX6T4Color:
         """Handle button press events."""
         if self.current_game is None:
             return
-        match button:
-            case Button.UP:
-                self.direction |= Direction.NORTH
-            case Button.DOWN:
-                self.direction |= Direction.SOUTH
-            case Button.LEFT:
-                self.direction |= Direction.WEST
-            case Button.RIGHT:
-                self.direction |= Direction.EAST
-            case Button.Y:
-                self.Y = True
-            case Button.B:
-                self.B = True
-            case Button.X:
-                self.X = True
-            case Button.A:
-                self.A = True
-            case Button.SELECT:
-                self.handle_select()
-            case Button.START:
-                self.handle_start()
+        if button == Button.UP:
+            self.direction |= Direction.NORTH
+        elif button == Button.DOWN:
+            self.direction |= Direction.SOUTH
+        elif button == Button.LEFT:
+            self.direction |= Direction.WEST
+        elif button == Button.RIGHT:
+            self.direction |= Direction.EAST
+        elif button == Button.Y:
+            self.Y = True
+        elif button == Button.B:
+            self.B = True
+        elif button == Button.X:
+            self.X = True
+        elif button == Button.A:
+            self.A = True
+        elif button == Button.SELECT:
+            self.handle_select()
+        elif button == Button.START:
+            self.handle_start()
         if self.game_running:
             self.current_game.handle_button_pressed(button)
 
@@ -101,23 +100,22 @@ class PIX6T4Color:
         """Handle button release events."""
         if self.current_game is None:
             return
-        match button:
-            case Button.UP:
-                self.direction &= ~Direction.NORTH
-            case Button.DOWN:
-                self.direction &= ~Direction.SOUTH
-            case Button.LEFT:
-                self.direction &= ~Direction.WEST
-            case Button.RIGHT:
-                self.direction &= ~Direction.EAST
-            case Button.Y:
-                self.Y = False
-            case Button.B:
-                self.B = False
-            case Button.X:
-                self.X = False
-            case Button.A:
-                self.A = False
+        if button == Button.UP:
+            self.direction &= ~Direction.NORTH
+        elif button == Button.DOWN:
+            self.direction &= ~Direction.SOUTH
+        elif button == Button.LEFT:
+            self.direction &= ~Direction.WEST
+        elif button == Button.RIGHT:
+            self.direction &= ~Direction.EAST
+        elif button == Button.Y:
+            self.Y = False
+        elif button == Button.B:
+            self.B = False
+        elif button == Button.X:
+            self.X = False
+        elif button == Button.A:
+            self.A = False
         if not self.game_running:
             if button in (Button.UP, Button.LEFT):
                 self.go_to_next_game()
