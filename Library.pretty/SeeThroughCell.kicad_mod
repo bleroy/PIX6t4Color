@@ -61,7 +61,7 @@
 		(start -1.45 -1.45)
 		(end 1.45 1.45)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(fill yes)
@@ -72,7 +72,7 @@
 		(start -1.45 -1.45)
 		(end 1.45 1.45)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type default)
 		)
 		(fill yes)
@@ -83,12 +83,23 @@
 		(start -1.5 -1.5)
 		(end 1.5 1.5)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "360a60cb-4d85-4315-b1f7-115a2345d819")
+	)
+	(fp_rect
+		(start -1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "098cfd2e-9798-499e-a37a-435c71d11f9a")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)

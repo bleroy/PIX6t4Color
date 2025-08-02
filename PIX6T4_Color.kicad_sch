@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "PIX6T4 Color")
-		(date "2025-07-19")
-		(rev "1")
+		(date "2025-07-29")
+		(rev "2")
 		(company "Decent Engineering")
 	)
 	(lib_symbols
@@ -4417,6 +4417,19 @@
 		)
 	)
 	(rectangle
+		(start 120.65 35.56)
+		(end 179.07 58.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 56 0 60 0.06)
+		)
+		(uuid 0954a7a0-824f-4c78-8545-b204ddb27c9a)
+	)
+	(rectangle
 		(start 154.432 64.77)
 		(end 284.48 161.29)
 		(stroke
@@ -4498,12 +4511,6 @@
 			(justify right bottom)
 		)
 		(uuid "649cc72d-461a-4b5d-970f-4751b10da1d9")
-	)
-	(junction
-		(at 165.1 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "003144aa-a82a-4ea5-b361-029c88828123")
 	)
 	(junction
 		(at 93.98 38.1)
@@ -4715,6 +4722,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 53.34) (xy 177.8 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024c9f43-0c1d-43d4-85d6-8644ba6d6ffc")
+	)
+	(wire
+		(pts
 			(xy 100.33 21.59) (xy 111.76 21.59)
 		)
 		(stroke
@@ -4855,6 +4872,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 50.8) (xy 121.92 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "100ccc34-8aeb-4865-86d0-4f4c11dec83c")
+	)
+	(wire
+		(pts
 			(xy 26.67 99.06) (xy 26.67 104.14)
 		)
 		(stroke
@@ -4862,6 +4889,16 @@
 			(type default)
 		)
 		(uuid "101975dd-a323-4808-bc50-65e5efdb4794")
+	)
+	(wire
+		(pts
+			(xy 149.86 43.18) (xy 149.86 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12894bc8-8b6f-40c6-8e79-a5b090b7f647")
 	)
 	(wire
 		(pts
@@ -4945,6 +4982,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 53.34) (xy 163.83 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1609f4c7-b9e8-4182-93af-7836cbf6b63a")
+	)
+	(wire
+		(pts
 			(xy 261.62 121.92) (xy 264.16 121.92)
 		)
 		(stroke
@@ -4952,6 +4999,16 @@
 			(type default)
 		)
 		(uuid "172ad336-f2c7-4d2e-905d-c07c86ae2bb6")
+	)
+	(wire
+		(pts
+			(xy 163.83 43.18) (xy 163.83 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a8a83a7-ed5a-494a-9b45-3b070443f4f7")
 	)
 	(wire
 		(pts
@@ -5012,6 +5069,16 @@
 			(type default)
 		)
 		(uuid "1fff37eb-f77a-4c6d-9183-19f7c8815a60")
+	)
+	(wire
+		(pts
+			(xy 177.8 57.15) (xy 143.51 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "206af572-fa1e-46ce-b8e6-7c3bab6b741b")
 	)
 	(wire
 		(pts
@@ -5112,16 +5179,6 @@
 			(type default)
 		)
 		(uuid "269158be-85d5-4ba6-9628-a634c3998aca")
-	)
-	(wire
-		(pts
-			(xy 165.1 168.91) (xy 165.1 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26d4b1f4-ee0c-499e-baea-016043612d7b")
 	)
 	(wire
 		(pts
@@ -5245,6 +5302,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 53.34) (xy 149.86 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37c581ef-996d-4767-a4d6-50783064ee68")
+	)
+	(wire
+		(pts
 			(xy 276.86 76.2) (xy 278.13 76.2)
 		)
 		(stroke
@@ -5285,6 +5352,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 53.34) (xy 177.8 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be2daab-c7d9-476c-a9dc-516c5a9a1429")
+	)
+	(wire
+		(pts
 			(xy 123.19 29.21) (xy 134.62 29.21)
 		)
 		(stroke
@@ -5292,6 +5369,16 @@
 			(type default)
 		)
 		(uuid "3c4f991d-fd53-46ae-9892-03c98e181e92")
+	)
+	(wire
+		(pts
+			(xy 143.51 57.15) (xy 143.51 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e9b0230-7cdc-4ad5-8f52-86731fb0b7ec")
 	)
 	(wire
 		(pts
@@ -5362,6 +5449,16 @@
 			(type default)
 		)
 		(uuid "44a2f87e-a244-497e-8cd3-f2ce04284dda")
+	)
+	(wire
+		(pts
+			(xy 134.62 43.18) (xy 135.89 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46b8c931-541a-444f-9523-2ffcdee30db6")
 	)
 	(wire
 		(pts
@@ -5515,6 +5612,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 46.99) (xy 120.65 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57438629-c907-42eb-95d3-d7aec24f2ff7")
+	)
+	(wire
+		(pts
 			(xy 127 114.3) (xy 139.7 114.3)
 		)
 		(stroke
@@ -5522,16 +5629,6 @@
 			(type default)
 		)
 		(uuid "5783c1c0-8b5e-49f0-967c-bf296ef2d172")
-	)
-	(wire
-		(pts
-			(xy 278.13 162.56) (xy 165.1 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57892cd6-46ad-41b1-af17-53ee6ea4c3f1")
 	)
 	(wire
 		(pts
@@ -5582,6 +5679,16 @@
 			(type default)
 		)
 		(uuid "5a0cdd19-ae39-408d-8b91-b3a58c88d890")
+	)
+	(wire
+		(pts
+			(xy 135.89 43.18) (xy 135.89 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ac1439e-187d-4595-a3e3-fdbe7a7ec0ad")
 	)
 	(wire
 		(pts
@@ -5775,6 +5882,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 43.18) (xy 177.8 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b38d9da-0a3d-4615-83ee-7251cdef6e59")
+	)
+	(wire
+		(pts
 			(xy 146.05 21.59) (xy 157.48 21.59)
 		)
 		(stroke
@@ -5935,16 +6052,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 162.56) (xy 165.1 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d8a7027-18df-40e1-95b9-766cab53850f")
-	)
-	(wire
-		(pts
 			(xy 231.14 110.49) (xy 233.68 110.49)
 		)
 		(stroke
@@ -6065,6 +6172,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 43.18) (xy 177.8 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86d84806-fd8a-44d7-b724-a4461214d9c2")
+	)
+	(wire
+		(pts
 			(xy 233.68 121.92) (xy 233.68 119.38)
 		)
 		(stroke
@@ -6165,6 +6282,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 53.34) (xy 163.83 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f530f0c-84c1-4632-a43d-95b186cbdf07")
+	)
+	(wire
+		(pts
 			(xy 278.13 87.63) (xy 278.13 91.44)
 		)
 		(stroke
@@ -6255,6 +6382,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 53.34) (xy 135.89 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9907aa24-0208-45f4-8120-b2bb75bd1138")
+	)
+	(wire
+		(pts
 			(xy 187.96 76.2) (xy 187.96 73.66)
 		)
 		(stroke
@@ -6272,6 +6409,16 @@
 			(type default)
 		)
 		(uuid "9ac8ef7e-8a4f-4ca0-a2d9-936cacc28ba2")
+	)
+	(wire
+		(pts
+			(xy 162.56 43.18) (xy 163.83 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b16e1d6-a7d9-4f23-b27c-a63286e00f69")
 	)
 	(wire
 		(pts
@@ -6462,6 +6609,16 @@
 			(type default)
 		)
 		(uuid "ae51188a-4266-44dc-98e1-f595ff11f8b9")
+	)
+	(wire
+		(pts
+			(xy 148.59 53.34) (xy 149.86 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae5fb218-8af4-4ad3-a21f-456aacf38395")
 	)
 	(wire
 		(pts
@@ -6715,6 +6872,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 43.18) (xy 149.86 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6df1391-ced6-4b1c-bf3d-cd33f51e7e5d")
+	)
+	(wire
+		(pts
 			(xy 59.69 156.21) (xy 68.58 156.21)
 		)
 		(stroke
@@ -6925,6 +7092,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 53.34) (xy 135.89 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbcc02e7-8804-457c-affb-982473a4fc61")
+	)
+	(wire
+		(pts
 			(xy 111.76 104.14) (xy 139.7 104.14)
 		)
 		(stroke
@@ -7032,6 +7209,16 @@
 			(type default)
 		)
 		(uuid "e3336bbc-b34c-400c-b582-2bc91d51e396")
+	)
+	(wire
+		(pts
+			(xy 120.65 46.99) (xy 120.65 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e476a127-8e80-4dba-89dc-39d5021eac8e")
 	)
 	(wire
 		(pts
@@ -7353,7 +7540,7 @@
 		)
 		(uuid "f5ce8c58-ec46-4d81-a978-7051bc8c56a3")
 	)
-	(global_label "A"
+	(global_label "B"
 		(shape input)
 		(at 111.76 66.04 0)
 		(fields_autoplaced yes)
@@ -7661,6 +7848,28 @@
 			)
 		)
 	)
+	(global_label "MATRIX_OUT"
+		(shape output)
+		(at 278.13 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d337410-deb2-449a-8b0a-3d72161e8284")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 292.3033 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_D-"
 		(shape bidirectional)
 		(at 46.99 171.45 0)
@@ -7705,7 +7914,7 @@
 			)
 		)
 	)
-	(global_label "B"
+	(global_label "A"
 		(shape input)
 		(at 111.76 60.96 0)
 		(fields_autoplaced yes)
@@ -7749,7 +7958,7 @@
 			)
 		)
 	)
-	(global_label "A"
+	(global_label "B"
 		(shape output)
 		(at 279.4 45.72 0)
 		(fields_autoplaced yes)
@@ -7793,7 +8002,7 @@
 			)
 		)
 	)
-	(global_label "B"
+	(global_label "A"
 		(shape output)
 		(at 265.43 55.88 0)
 		(fields_autoplaced yes)
@@ -7828,6 +8037,28 @@
 		(uuid "d74eb789-d15b-4989-b697-40827246a444")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 271.0157 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MATRIX_OUT"
+		(shape input)
+		(at 121.92 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e16f40cf-db00-4851-9be4-342fbd3f53ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.0933 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8538,7 +8769,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 165.1 172.72 270)
+		(at 143.51 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8546,7 +8777,7 @@
 		(dnp yes)
 		(uuid "21ade2f7-fb94-40e1-903a-2e866736b7e3")
 		(property "Reference" "J8"
-			(at 164.7444 175.7101 90)
+			(at 143.1544 70.3001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8554,7 +8785,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 165.1 177.546 90)
+			(at 143.51 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8562,7 +8793,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
-			(at 165.1 172.72 0)
+			(at 143.51 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8571,7 +8802,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 172.72 0)
+			(at 143.51 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8580,7 +8811,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 165.1 172.72 0)
+			(at 143.51 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8589,7 +8820,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C160389"
-			(at 165.1 172.72 0)
+			(at 143.51 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8598,7 +8829,7 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" "180"
-			(at 165.1 172.72 0)
+			(at 143.51 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12815,7 +13046,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 167.64 180)
+		(at 140.97 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12823,7 +13054,7 @@
 		(dnp no)
 		(uuid "b20e764e-a7cb-47cc-b513-ffb7a5bdd6ba")
 		(property "Reference" "#PWR0174"
-			(at 162.56 161.29 0)
+			(at 140.97 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12832,7 +13063,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 167.64 0)
+			(at 138.43 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12840,7 +13071,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 167.64 0)
+			(at 140.97 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12849,7 +13080,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 167.64 0)
+			(at 140.97 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12858,7 +13089,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 167.64 0)
+			(at 140.97 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13903,7 +14134,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 167.64 167.64 0)
+		(at 146.05 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13911,7 +14142,7 @@
 		(dnp no)
 		(uuid "d5715612-1ac0-415f-a5ed-dacd1863aa04")
 		(property "Reference" "#PWR0175"
-			(at 167.64 171.45 0)
+			(at 146.05 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13920,7 +14151,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 167.64 164.592 0)
+			(at 146.05 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13928,7 +14159,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 167.64 0)
+			(at 146.05 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13937,7 +14168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 167.64 0)
+			(at 146.05 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13946,7 +14177,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 167.64 0)
+			(at 146.05 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16833,6 +17064,68 @@
 		)
 	)
 	(sheet
+		(at 135.89 49.53)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "557fe092-b584-481b-a62f-43b274c2b25e")
+		(property "Sheetname" "RGB69"
+			(at 135.89 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RGB.kicad_sch"
+			(at 135.89 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RGB_IN" input
+			(at 135.89 50.8 180)
+			(uuid "faf41e66-48ac-48cd-8ee0-84ba3474ef1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RGB_OUT" output
+			(at 148.59 53.34 0)
+			(uuid "658bbe79-278a-4af6-b946-deb07e99dc2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PIX6T4_Color"
+				(path "/279815f6-a512-43c8-bc8d-a03c0593ab83"
+					(page "71")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 264.16 129.54)
 		(size 12.7 5.08)
 		(exclude_from_sim no)
@@ -16890,6 +17183,68 @@
 			(project "PIX6T4_Color"
 				(path "/279815f6-a512-43c8-bc8d-a03c0593ab83"
 					(page "49")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.86 49.53)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e0f4311-0f96-497d-8681-6e349b8988f5")
+		(property "Sheetname" "RGB70"
+			(at 149.86 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RGB.kicad_sch"
+			(at 149.86 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RGB_IN" input
+			(at 149.86 50.8 180)
+			(uuid "6d45f753-9224-456d-8e29-7fa7c9b908e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RGB_OUT" output
+			(at 162.56 53.34 0)
+			(uuid "22ebf0b1-fbbd-4d3a-886f-1300ed76bdf6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PIX6T4_Color"
+				(path "/279815f6-a512-43c8-bc8d-a03c0593ab83"
+					(page "72")
 				)
 			)
 		)
@@ -17014,6 +17369,130 @@
 			(project "PIX6T4_Color"
 				(path "/279815f6-a512-43c8-bc8d-a03c0593ab83"
 					(page "37")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 39.37)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "623c328d-2d7e-4716-adce-079c2651317d")
+		(property "Sheetname" "RGB65"
+			(at 135.89 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RGB.kicad_sch"
+			(at 135.89 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RGB_IN" input
+			(at 135.89 40.64 180)
+			(uuid "b09443b5-434a-465f-aff1-2da9607449e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RGB_OUT" output
+			(at 148.59 43.18 0)
+			(uuid "12365d32-bf4a-4fc2-9452-5aa5f9c6a7be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PIX6T4_Color"
+				(path "/279815f6-a512-43c8-bc8d-a03c0593ab83"
+					(page "67")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.83 49.53)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6249d681-ce90-4e74-bfef-da40220dadb5")
+		(property "Sheetname" "RGB71"
+			(at 163.83 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RGB.kicad_sch"
+			(at 163.83 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RGB_IN" input
+			(at 163.83 50.8 180)
+			(uuid "d38a8fea-abc2-46c8-b294-f353b126606c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RGB_OUT" output
+			(at 176.53 53.34 0)
+			(uuid "a1265acb-f561-4672-ad2a-7369bd11afa5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PIX6T4_Color"
+				(path "/279815f6-a512-43c8-bc8d-a03c0593ab83"
+					(page "73")
 				)
 			)
 		)
@@ -17572,6 +18051,68 @@
 			(project "PIX6T4_Color"
 				(path "/279815f6-a512-43c8-bc8d-a03c0593ab83"
 					(page "48")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 49.53)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "804e2d2f-2847-4ee1-bd9c-4feb75f775d7")
+		(property "Sheetname" "RGB68"
+			(at 121.92 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RGB.kicad_sch"
+			(at 121.92 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RGB_IN" input
+			(at 121.92 50.8 180)
+			(uuid "b73097c7-4672-4b96-abf0-52949e0e7361")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RGB_OUT" output
+			(at 134.62 53.34 0)
+			(uuid "f930ea6e-b6f4-4eab-a172-71313dc3319a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PIX6T4_Color"
+				(path "/279815f6-a512-43c8-bc8d-a03c0593ab83"
+					(page "70")
 				)
 			)
 		)
@@ -18502,6 +19043,192 @@
 			(project "PIX6T4_Color"
 				(path "/279815f6-a512-43c8-bc8d-a03c0593ab83"
 					(page "62")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.86 39.37)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "babc61b6-5821-4dcf-a7be-9d0b384adff9")
+		(property "Sheetname" "RGB66"
+			(at 149.86 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RGB.kicad_sch"
+			(at 149.86 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RGB_IN" input
+			(at 149.86 40.64 180)
+			(uuid "23879c1a-6617-4e47-a2bb-fc56619dd0d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RGB_OUT" output
+			(at 162.56 43.18 0)
+			(uuid "d51a7b32-afa3-435a-bb63-1826be0057fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PIX6T4_Color"
+				(path "/279815f6-a512-43c8-bc8d-a03c0593ab83"
+					(page "68")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 39.37)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c0c24fe4-6260-4d84-9cab-d62efdabc373")
+		(property "Sheetname" "RGB64"
+			(at 121.92 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RGB.kicad_sch"
+			(at 121.92 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RGB_IN" input
+			(at 121.92 40.64 180)
+			(uuid "3b2a045d-8537-491a-a634-d24f2be91930")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RGB_OUT" output
+			(at 134.62 43.18 0)
+			(uuid "26b1222d-65eb-49e0-b099-56208015fabb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PIX6T4_Color"
+				(path "/279815f6-a512-43c8-bc8d-a03c0593ab83"
+					(page "66")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.83 39.37)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c15bba90-3bbf-43a6-b14b-21878d10f7ac")
+		(property "Sheetname" "RGB67"
+			(at 163.83 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RGB.kicad_sch"
+			(at 163.83 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RGB_IN" input
+			(at 163.83 40.64 180)
+			(uuid "1399b8ba-15e8-4f1f-81ca-18c9f32cf638")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RGB_OUT" output
+			(at 176.53 43.18 0)
+			(uuid "3c60875f-368b-4d2a-a409-293f6445685f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PIX6T4_Color"
+				(path "/279815f6-a512-43c8-bc8d-a03c0593ab83"
+					(page "69")
 				)
 			)
 		)
