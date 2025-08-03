@@ -157,7 +157,7 @@ class PIX6T4Color:
     def plot(self, x: int, y: int, color: Color):
         """Plot a pixel at (x, y) with the given color."""
         if 0 <= x < 8 and 0 <= y < 8:
-            self.pixels[x][y] = color
+            self.pixels[y][x] = color
     
     def beep(self, frequency: int = 440, duration: int = 100):
         """Play a beep sound."""

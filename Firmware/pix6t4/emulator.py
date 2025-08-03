@@ -44,9 +44,9 @@ class LedMatrix(QWidget):
         painter.fillRect(0, 0, self.width(), self.height(), QColor(32, 32, 32))
         for x, row in enumerate(self.pixels):
             for y, col in enumerate(row):
-                color = QColor(self.pixels[x][y].with_brightness(self.pix6t4.brightness) >> 8)
-                painter.fillRect(y * self.pixelSize + self.margin,
-                                 x * self.pixelSize + self.margin,
+                color = QColor(self.pixels[x][y].with_brightness(self.pix6t4.brightness).value >> 8)
+                painter.fillRect(x * self.pixelSize + self.margin,
+                                 y * self.pixelSize + self.margin,
                                  self.pixelSize - self.margin * 2,
                                  self.pixelSize - self.margin * 2,
                                  color)

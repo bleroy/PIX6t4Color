@@ -20,7 +20,11 @@ palette = {
     }
 
 class Bitmap:
-    """Bitmap class for PIX6T4 Color."""
+    """
+    Bitmap class for PIX6T4 Color.
+    The internal first coordinate is vertical (y-axis), the second is horizontal (x-axis).
+    Coordinates start at (0, 0) in the top-left corner.
+    """
     
     def __init__(self, width: int, height: int):
         """Initialize the bitmap with given width and height."""
@@ -36,8 +40,8 @@ class Bitmap:
         width = max(len(line) for line in lines)
         bitmap = Bitmap(width, height)
         
-        for x, line in enumerate(lines):
-            for y, char in enumerate(line):
+        for y, line in enumerate(lines):
+            for x, char in enumerate(line):
                 color = custom_palette[char] if char in custom_palette else palette[char] if char in palette else Color.BLACK
                 bitmap.set_pixel(x, y, color)
         
