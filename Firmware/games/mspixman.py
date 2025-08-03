@@ -208,12 +208,12 @@ YYYYYYrr
                 # Move the player
                 self.maze[self.player_y][self.player_x] = ' '
                 self.player_x = new_x % len(self.maze[0])
-                self.player_y = new_y % len(self.maze)
+                self.player_y = new_y
                 self.maze[self.player_y][self.player_x] = '<'
                 # Slide the window to follow the player
-                if self.player_x > (self.window_x + 4) % len(self.maze[0]):
+                if (self.player_x - 4) % len(self.maze[0]) > self.window_x:
                     self.window_x = (self.player_x - 4) % len(self.maze[0])
-                elif self.player_x < self.window_x + 3:
+                elif (self.player_x - 3) % len(self.maze[0]) < self.window_x:
                     self.window_x = (self.player_x - 3) % len(self.maze[0])
                 if self.player_y > self.window_y + 4:
                     self.window_y = min(self.player_y - 4, len(self.maze) - 8)
