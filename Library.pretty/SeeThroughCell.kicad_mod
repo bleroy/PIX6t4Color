@@ -58,8 +58,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -1.45 -1.45)
-		(end 1.45 1.45)
+		(start -1.35 -1.35)
+		(end 1.35 1.35)
 		(stroke
 			(width 0)
 			(type default)
@@ -69,8 +69,8 @@
 		(uuid "e5aba3bc-1272-4f9c-8c9b-888b436e10e8")
 	)
 	(fp_rect
-		(start -1.45 -1.45)
-		(end 1.45 1.45)
+		(start -1.35 -1.35)
+		(end 1.35 1.35)
 		(stroke
 			(width 0)
 			(type default)
@@ -83,7 +83,7 @@
 		(start -1.5 -1.5)
 		(end 1.5 1.5)
 		(stroke
-			(width 0.1)
+			(width 0.3)
 			(type default)
 		)
 		(fill no)

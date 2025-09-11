@@ -838,10 +838,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e92bc96e-eaee-44af-8717-0aa38898ecca")
+			(uuid "c5efa8cd-444e-41fa-810e-f635fa0ae941")
 		)
 		(pin "2"
-			(uuid "e0cc66c6-c013-407a-83df-f4922ec7ff57")
+			(uuid "6a074229-3ce0-4a94-8e71-8c0ea32f6e58")
 		)
 		(instances
 			(project "PIX6T4_Color"
@@ -1093,6 +1093,10 @@
 					(reference "C43")
 					(unit 1)
 				)
+				(path "/279815f6-a512-43c8-bc8d-a03c0593ab83/c2f10722-089c-46ea-ab0f-0e2e905d0c64"
+					(reference "C89")
+					(unit 1)
+				)
 				(path "/279815f6-a512-43c8-bc8d-a03c0593ab83/d08ae5e3-6b99-4313-96e0-b4a8d5e149a0"
 					(reference "C67")
 					(unit 1)
@@ -1191,7 +1195,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "32c5de90-2f84-4469-ba3a-de7846b2079b")
+			(uuid "ab4bf1ea-de39-43d2-a98f-c414fe72c2f8")
 		)
 		(instances
 			(project "PIX6T4_Color"
@@ -1443,6 +1447,10 @@
 					(reference "#PWR073")
 					(unit 1)
 				)
+				(path "/279815f6-a512-43c8-bc8d-a03c0593ab83/c2f10722-089c-46ea-ab0f-0e2e905d0c64"
+					(reference "#PWR0191")
+					(unit 1)
+				)
 				(path "/279815f6-a512-43c8-bc8d-a03c0593ab83/d08ae5e3-6b99-4313-96e0-b4a8d5e149a0"
 					(reference "#PWR0122")
 					(unit 1)
@@ -1541,7 +1549,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "cbb2b492-1d97-4dc9-8b0a-c879d9600647")
+			(uuid "b474ba27-4265-46db-a52b-e40ba3ae1bb6")
 		)
 		(instances
 			(project "PIX6T4_Color"
@@ -1793,6 +1801,10 @@
 					(reference "#PWR072")
 					(unit 1)
 				)
+				(path "/279815f6-a512-43c8-bc8d-a03c0593ab83/c2f10722-089c-46ea-ab0f-0e2e905d0c64"
+					(reference "#PWR0190")
+					(unit 1)
+				)
 				(path "/279815f6-a512-43c8-bc8d-a03c0593ab83/d08ae5e3-6b99-4313-96e0-b4a8d5e149a0"
 					(reference "#PWR0121")
 					(unit 1)
@@ -1839,15 +1851,15 @@
 	(symbol
 		(lib_id "DecentUSB_Library:SK6812MINI")
 		(at 140.97 95.25 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e46f3ca7-9ddf-4fe1-97b0-c4d41abaee67")
 		(property "Reference" "D2"
-			(at 152.5777 89.105 0)
+			(at 129.3623 89.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1855,7 +1867,7 @@
 			)
 		)
 		(property "Value" "SK6805-EC14"
-			(at 152.5777 91.5293 0)
+			(at 129.3623 91.5293 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1863,7 +1875,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L1.4-W1.4-TL"
-			(at 142.24 102.87 0)
+			(at 139.7 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,7 +1885,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589042051015462912"
-			(at 143.51 104.775 0)
+			(at 138.43 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1919,16 +1931,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed4b4f1f-72f3-4caf-940b-658ddc17a799")
+			(uuid "7eeaebd9-9125-4c52-b0d9-934ac77a4a3a")
 		)
 		(pin "3"
-			(uuid "c3e1e722-e1e6-4e27-a175-c094540dbe6d")
+			(uuid "e50f387a-4844-43e1-b3d5-02bae862ad0a")
 		)
 		(pin "4"
-			(uuid "a1a982a9-322a-4717-88cd-828ff78a2d69")
+			(uuid "65f8bf56-3ec5-46c6-888c-d3a32c0f073f")
 		)
 		(pin "2"
-			(uuid "540bd0b1-7f5c-4e63-9f2f-abaad60b8573")
+			(uuid "ffb4e651-fa5a-4b5e-a1d6-6acdf748faf5")
 		)
 		(instances
 			(project "PIX6T4_Color"
@@ -2178,6 +2190,10 @@
 				)
 				(path "/279815f6-a512-43c8-bc8d-a03c0593ab83/c28987f9-90f8-4455-bfe6-26137c5d51bc"
 					(reference "D27")
+					(unit 1)
+				)
+				(path "/279815f6-a512-43c8-bc8d-a03c0593ab83/c2f10722-089c-46ea-ab0f-0e2e905d0c64"
+					(reference "D73")
 					(unit 1)
 				)
 				(path "/279815f6-a512-43c8-bc8d-a03c0593ab83/d08ae5e3-6b99-4313-96e0-b4a8d5e149a0"
