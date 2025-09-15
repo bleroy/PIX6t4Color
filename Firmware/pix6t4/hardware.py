@@ -43,8 +43,8 @@ class PIX6T4ColorHardware(PIX6T4Color):
     def render(self):
         """Render the current state of the PIX6T4 Color."""
         i = 0
-        for x, row in enumerate(self.pixels):
-            for y, col in enumerate(row):
+        for y, row in enumerate(self.pixels):
+            for x, col in enumerate(row):
                 color = self.pixels[x][y].with_brightness(self.brightness).value >> 8
                 self.leds[i] = color
                 i += 1
